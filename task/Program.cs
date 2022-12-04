@@ -17,3 +17,15 @@ void SortingArray(string[] array1, string[] array2)
         }
     }
 }
+
+void PrintArray(string[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+        Console.Write($"{array[i]} ");
+    }
+    Console.WriteLine();
+}
+System.Console.WriteLine("Элементы массива менее либо с 3 символами: ");
+SortingArray(array1, array2);
+PrintArray(array2);
